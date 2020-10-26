@@ -73,3 +73,53 @@
 // console.log(c);
 // c /= 2;
 // console.log(c);
+
+// Comparison Operators
+// var x = 25;
+// var y = 93;
+// console.log(x == y);
+// console.log(x >= y);
+// console.log(x <= y);
+// console.log(x < y);
+// console.log(x > y);
+
+// Logical Operators
+
+//Logical AND
+// console.log(true && true);
+// console.log(true && false);
+// console.log(false && true);
+// console.log(false && false);
+
+//Logical OR
+// console.log(true || true);
+// console.log(true || false);
+// console.log(false || true);
+// console.log(false || false);
+
+//Logical NOT
+// console.log(!true);
+// console.log(!false);
+
+// Functions
+// function avg(a, b) {
+//   return (a + b) / 2;
+// }
+
+//DRY= Don't Repeat Yourself
+//c1 = avg(5, 9);
+//c2 = avg(35, 41);
+//console.log(c1, c2);
+
+// Conditionals in Javascript
+// var age = 24;
+// Single if statement
+// if (age > 18) {
+//     console.log("You are eligible for voting");
+// }
+// if-else statement
+// if (age > 18) {
+//     console.log("You are eligible for voting");
+// } else {
+//     console.log("You are eligible for voting");
+// }
