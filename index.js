@@ -123,3 +123,54 @@
 // } else {
 //     console.log("You are eligible for voting");
 // }
+
+//Ways to print an array
+// var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+//First
+// console.log(arr);
+// for (var i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+
+//Second
+// arr.forEach(function (element) {
+//     console.log(element);
+// })
+
+//var is old standard, Let is new standard for Javascript
+// const p=0;
+// p++;
+
+// let j = 0;
+// while (j < arr.length) {
+//     console.log(arr[j]);
+//     j++;
+// }
+
+// do {
+//     console.log(arr[j]);
+//     j++;
+// } while (j < arr.length);
+
+//break and continue
+//remember the countine starts from '0'
+// var arr = [1, 2, 3, 4, 5, 6, 7];
+// for (var i = 0; i < arr.length; i++) {
+//     if (i == 2) {
+//         // break; //breaks the statement at i==2 means 3rd element in the array
+//         continue; //skips printing arr element at i==2(3rd element) and then prints the rest
+//     }
+//     console.log(arr[i])
+// }
+
+let myArr = ["Fan", "Camera", "Number", 24, null, true];
+//Array methods
+console.log(myArr.length);
+myArr.pop();
+console.log(myArr);
+myArr.push("Sagar");
+console.log(myArr);
+myArr.shift()
+console.log(myArr);
+myArr.unshift("Sagar");
+console.log(myArr);
