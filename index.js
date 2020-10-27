@@ -163,14 +163,27 @@
 //     console.log(arr[i])
 // }
 
-let myArr = ["Fan", "Camera", "Number", 24, null, true];
+//let myArr = ["Fan", "Camera", "Number", 24, null, true];
 //Array methods
-console.log(myArr.length);
-myArr.pop();
-console.log(myArr);
-myArr.push("Sagar");
-console.log(myArr);
-myArr.shift()
-console.log(myArr);
-myArr.unshift("Sagar");
-console.log(myArr);
+// console.log(myArr.length);
+// myArr.pop();
+// console.log(myArr);
+// myArr.push("Sagar");
+// console.log(myArr);
+// myArr.shift()
+// console.log(myArr);
+// myArr.unshift("Fruit");
+// console.log(myArr);
+// const newLen = myArr.unshift("Sagar");
+// console.log(newLen);
+// console.log(myArr);
+
+//String Methods in Javascript
+// let myLovelyString = "Sagar is the best";
+// console.log(myLovelyString.length);
+// console.log(myLovelyString.indexOf("Sagar"));
+// console.log(myLovelyString.indexOf("the"));
+// console.log(myLovelyString.slice(0, 8)); //basically prints the char from 0 to 7(n-1)
+// d = myLovelyString.replace("Sagar", "Sudipta");
+// d = myLovelyString.replace("best", "greatest");
+// console.log(d, myLovelyString);
