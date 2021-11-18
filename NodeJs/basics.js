@@ -25,20 +25,20 @@
 // greeter(userName);
 
 // * Creating a Web Server *//
-var http = require('http');
-const { type } = require('os');
+// var http = require('http');
+// const { type } = require('os');
 
-var Server = http.createServer(function(req, res) {
-    // Write response header
-    res.writeHead(200, {"Content-type" : "text/html"});
-    // Write the body of the response
-    res.write("<html><body>");
-    res.write("<h1>Hello World!</h1>");
-    res.write("</body></html>");
-    //Send the response
-    res.end();
-});
+// var Server = http.createServer(function(req, res) {
+//     // Write response header
+//     res.writeHead(200, {"Content-type" : "text/html"});
+//     // Write the body of the response
+//     res.write("<html><body>");
+//     res.write("<h1>Hello World!</h1>");
+//     res.write("</body></html>");
+//     //Send the response
+//     res.end();
+// });
 
-Server.listen(3000, function(){
-    console.log("Server is listening on port 3000");
-});
+// Server.listen(3000, function(){
+//     console.log("Server is listening on port 3000");
+// });
