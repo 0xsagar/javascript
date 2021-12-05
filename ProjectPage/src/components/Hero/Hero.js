@@ -9,10 +9,10 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         Welcome to <br/>
-        Duta
+        Dūta (दूत)
       </SectionTitle>
       <SectionText>
-        What's our website (in one line)
+        A web-based chat application with end-to-end encryption and an instant messaging solution to enable users communicate seamlessly without compromising privacy.
       </SectionText>
       <Button onClick={() => window.location = 'https://google.com'}>Sign In</Button>
     </LeftSection>
